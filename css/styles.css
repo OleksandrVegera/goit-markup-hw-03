@@ -263,8 +263,8 @@ img {
 
 .employee-info {
   padding: 32px 0;
-  margin-bottom: 8px;
 }
+
 .employee-name {
   color: #2e2f42;
   text-align: center;
@@ -272,6 +272,7 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
+  margin-bottom: 8px;
 }
 
 .employee-position {
