@@ -78,8 +78,8 @@ img {
 .nav-list {
   list-style-type: none;
   display: flex;
-  align-items: center;
   gap: 40px;
+  align-items: center;
 }
 
 .nav-link {
@@ -107,8 +107,8 @@ img {
 .contact-list {
   list-style-type: none;
   display: flex;
-  align-items: center;
   gap: 40px;
+  align-items: center;
 }
 
 .contact-link {
@@ -131,7 +131,8 @@ img {
 /*-- hero-section --*/
 .hero {
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .hero .container {
@@ -177,11 +178,7 @@ img {
 }
 
 /*-- about-us-section --*/
-.about-us .container {
-}
-.about-us li {
-  display: flex;
-}
+
 .about-us-header {
   color: #2e2f42;
 }
@@ -208,8 +205,7 @@ img {
 .about-us-item {
   display: flex;
   flex-direction: column;
-  row-gap: 8px;
-  width: calc((100% - 3 * 24) / 4);
+  width: calc((100% - 3 * 24px) / 4);
 }
 
 .feature {
@@ -218,6 +214,7 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: #2e2f42;
+  margin-bottom: 8px;
 }
 
 .feature-text {
@@ -253,7 +250,7 @@ img {
 .our-team-list {
   list-style-type: none;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .our-team-item {
@@ -261,8 +258,13 @@ img {
   display: flex;
   flex-direction: column;
   width: calc((100% - 3 * 24) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 
+.employee-info {
+  padding: 32px 0;
+  margin-bottom: 8px;
+}
 .employee-name {
   color: #2e2f42;
   text-align: center;
@@ -270,7 +272,6 @@ img {
   font-weight: 500;
   line-height: 1.2; /* 120% */
   letter-spacing: 0.4px;
-  margin-bottom: 8px;
 }
 
 .employee-position {
@@ -280,11 +281,6 @@ img {
   font-weight: 400;
   line-height: 1.5; /* 150% */
   letter-spacing: 0.02em;
-  margin-bottom: 32px;
-}
-
-.employee-photo {
-  margin-bottom: 32px;
 }
 
 /*-- our-portfolio-section --*/
