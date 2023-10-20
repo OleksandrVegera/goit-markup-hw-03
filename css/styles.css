@@ -319,7 +319,6 @@ img {
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px;
 }
 
 .our-products {
@@ -328,6 +327,7 @@ img {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 
 .product-type {
@@ -351,6 +351,7 @@ img {
 }
 
 .footer-logo-link {
+  display: inline-block;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
   font-weight: 700;
@@ -359,7 +360,6 @@ img {
   text-transform: uppercase;
   color: #4d5ae5;
   text-decoration: none;
-  display: inline-block;
   margin-bottom: 16px;
 }
 
