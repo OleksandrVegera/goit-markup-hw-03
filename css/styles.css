@@ -345,9 +345,7 @@ img {
 }
 
 .page-footer .container {
-  display: flex;
   flex-direction: column;
-  row-gap: 17.5px;
 }
 
 .footer-logo-link {
