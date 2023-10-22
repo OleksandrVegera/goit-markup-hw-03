@@ -35,9 +35,12 @@ img {
   max-width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-  display: flex;
 }
 /*-- header section --*/
+
+.header-container {
+  display: flex;
+}
 .page-header {
   background-color: #ffffff;
   border-bottom: 1px solid #e7e9fc;
@@ -151,6 +154,7 @@ img {
   height: 120px;
   margin-right: auto;
   margin-left: auto;
+  margin-bottom: 48px;
   color: #ffffff;
 }
 
@@ -169,6 +173,7 @@ img {
   margin-left: auto;
   border: none;
   border-radius: 4px;
+  display: block;
 }
 
 .hero-button:hover,
@@ -342,10 +347,6 @@ img {
 .page-footer {
   background-color: #2e2f42;
   padding: 100px 0;
-}
-
-.page-footer .container {
-  flex-direction: column;
 }
 
 .footer-logo-link {
